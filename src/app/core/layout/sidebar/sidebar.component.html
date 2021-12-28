@@ -1,0 +1,17 @@
+<mat-nav-list>
+    <div class="profile-card">
+        <h5>Jose Cerna</h5>
+    </div>
+    <mat-divider></mat-divider>
+    <h2 matSubheader>Menu</h2>
+    <a style="margin-left: 6px" mat-list-item routerLinkActive="list-item-active" routerLink="/alumno"
+        (click)="toggleSidebar()">
+        <mat-icon>dashboard</mat-icon>
+        Alumno
+    </a>
+    <a style="margin-left: 6px" mat-list-item routerLinkActive="list-item-active" routerLink="/curso"
+        (click)="toggleSidebar()">
+        <mat-icon>dashboard</mat-icon>
+        Curso
+    </a>
+</mat-nav-list>

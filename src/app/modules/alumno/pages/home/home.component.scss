@@ -1,0 +1,23 @@
+.card-header {
+    background-color: rgb(13 8 51);
+    color: white;
+}
+
+.mat-expansion-panel {
+    border-top-color: #ff4081;
+    border-top-width: 2px;
+    border-top-style: solid;
+}
+  
+.mat-expansion-panel-header {
+    height: 50px !important;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    border-bottom-color: #8080805c;
+}
+
+@media screen and (max-width: 960px) {
+    .presponse {
+        padding-top: 10px;
+    }
+}
